@@ -1,0 +1,6 @@
+[core]
+	filemode = false
+	autocrlf = true
+[user]
+	name = Thach Hoang
+	email = thachhoang@users.noreply.github.com
