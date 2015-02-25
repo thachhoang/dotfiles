@@ -80,9 +80,9 @@
 # Aliases
 #
 # Some people use a different file for aliases
-# if [ -f "${HOME}/.bash_aliases" ]; then
-#   source "${HOME}/.bash_aliases"
-# fi
+if [ -f "${HOME}/.bash_aliases" ]; then
+  source "${HOME}/.bash_aliases"
+fi
 #
 # Some example alias instructions
 # If these are enabled they will be used instead of any instructions
@@ -196,3 +196,21 @@
 # }
 # 
 # alias cd=cd_func
+
+alias open="cygstart"
+alias http="python -m SimpleHTTPServer"
+alias pullrb="git pull --rebase"
+alias update="git stash; git pull --rebase; git stash pop"
+
+php (){
+  /cygdrive/c/Portable/xampp/php/php.exe $* &
+}
+
+npp (){
+  /cygdrive/c/Program\ Files\ \(x86\)/Notepad++/notepad++.exe $* &
+}
+
+# https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+source ~/git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=1
+export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] '
