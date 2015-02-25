@@ -4,3 +4,5 @@
 [user]
 	name = Thach Hoang
 	email = thachhoang@users.noreply.github.com
+[push]
+	default = simple
