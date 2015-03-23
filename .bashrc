@@ -213,4 +213,4 @@ npp (){
 # https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 source ~/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] '
+export PS1='\[\e[01;32m\]\u@\h \t\[\e[01;34m\] \w\[\e[01;33m\]$(__git_ps1)\[\e[01;34m\] \$\[\e[00m\] '
