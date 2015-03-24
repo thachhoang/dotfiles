@@ -1,3 +1,5 @@
 .ssh/
+.gem/
 .bash_aliases
 .bash_history
+bin/
