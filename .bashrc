@@ -203,10 +203,6 @@ alias http="python -m SimpleHTTPServer"
 alias pullrb="git pull --rebase"
 alias update="git stash; git pull --rebase; git stash pop"
 
-php (){
-  /cygdrive/c/Portable/xampp/php/php.exe $* &
-}
-
 npp (){
   /cygdrive/c/Program\ Files\ \(x86\)/Notepad++/notepad++.exe $* &
 }
