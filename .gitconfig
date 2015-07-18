@@ -19,3 +19,4 @@
 	amend = commit --amend
 	lg = log --decorate --oneline --stat --graph
 	lg2 = log --decorate --graph --date=relative --all
+	f = fetch -p
