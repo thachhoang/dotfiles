@@ -5,7 +5,7 @@ bash setup.sh
 HOME="/home/$(whoami)"
 BASH_RC="$HOME/.bashrc"
 
-cp template/npp.sh .
+cp template/npp.sh $HOME
 git config --global core.editor "~/npp.sh"
 
 cp -v template/.bashrc_cygwin.sh "$HOME/.bashrc_cygwin"
