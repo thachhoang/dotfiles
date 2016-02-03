@@ -27,5 +27,3 @@ if ! grep -Fq ".bashrc_common" $BASH_RC; then
     cp template/.bashrc_common.sh "$HOME/.bashrc_common"
     echo "source ~/.bashrc_common" >> $BASH_RC
 fi
-
-source $BASH_RC
