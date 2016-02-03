@@ -2,7 +2,7 @@
 
 bash setup.sh
 
-HOME="/home/thach"
+HOME="/home/$(whoami)"
 BASH_RC="$HOME/.bashrc"
 
 cp template/npp.sh .

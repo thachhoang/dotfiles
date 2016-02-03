@@ -17,7 +17,7 @@ git config --global alias.lg "log --decorate --oneline --stat --graph"
 git config --global alias.lg2 "log --decorate --graph --date=relative --all"
 git config --global alias.f "fetch -p"
 
-HOME="/home/thach"
+HOME="/home/$(whoami)"
 BASH_RC="$HOME/.bashrc"
 
 wget -NP $HOME https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
