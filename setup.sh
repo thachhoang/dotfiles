@@ -24,7 +24,7 @@ wget -NP $HOME https://raw.githubusercontent.com/git/git/master/contrib/completi
 wget -NP $HOME https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 
 if ! grep -Fq ".bashrc_common" $BASH_RC; then
-    cp template/.bashrc_common .
+    cp template/.bashrc_common.sh .bashrc_common
     echo "source ~/.bashrc_common" >> $BASH_RC
 fi
 
