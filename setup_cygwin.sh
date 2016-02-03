@@ -2,6 +2,9 @@
 
 bash setup.sh
 
+HOME="/home/thach"
+BASH_RC="$HOME/.bashrc"
+
 cp template/npp.sh .
 git config --global core.editor "~/npp.sh"
 

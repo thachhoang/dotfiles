@@ -1,15 +1,5 @@
 #!/bin/bash
 
-# Print in red
-echor () { tput setaf 1; echo "$@"; tput sgr0; }
-# Print in green
-echog () { tput setaf 2; echo "$@"; tput sgr0; }
-
-HOME="/home/thach"
-BASH_RC="$HOME/.bashrc"
-
-# ssh-keygen -t rsa
-
 git config --global user.name "Thach Hoang"
 git config --global user.email thachhoang@users.noreply.github.com
 git config --global color.ui true
@@ -26,6 +16,9 @@ git config --global alias.amend "commit --amend"
 git config --global alias.lg "log --decorate --oneline --stat --graph"
 git config --global alias.lg2 "log --decorate --graph --date=relative --all"
 git config --global alias.f "fetch -p"
+
+HOME="/home/thach"
+BASH_RC="$HOME/.bashrc"
 
 wget -NP $HOME https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
 wget -NP $HOME https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
