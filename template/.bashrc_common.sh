@@ -10,6 +10,7 @@ alias ls='ls -hF --color=tty'
 # long list
 alias ll='ls -l'
 
+alias brc='source ~/.bashrc'
 alias pullrb="git pull --rebase"
 alias update="git stash; git pull --rebase; git stash pop"
 
