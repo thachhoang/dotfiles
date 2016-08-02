@@ -16,6 +16,8 @@ git config --global alias.amend "commit --amend"
 git config --global alias.lg "log --decorate --oneline --stat --graph"
 git config --global alias.lg2 "log --decorate --graph --date=relative --all"
 git config --global alias.f "fetch -p"
+git config --global alias.cpk cherry-pick
+git config --global alias.shwo show
 
 HOME="/home/$(whoami)"
 BASH_RC="$HOME/.bashrc"
