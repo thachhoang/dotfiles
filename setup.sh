@@ -3,8 +3,6 @@
 git config --global user.name "Thach Hoang"
 git config --global user.email thachhoang@users.noreply.github.com
 git config --global color.ui true
-git config --global core.autocrlf true
-git config --global core.filemode false
 git config --global push.default simple
 git config --global alias.b branch
 git config --global alias.co checkout

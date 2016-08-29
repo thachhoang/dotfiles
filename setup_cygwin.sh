@@ -2,6 +2,9 @@
 
 bash setup.sh
 
+git config --global core.autocrlf true
+git config --global core.filemode false
+
 HOME="/home/$(whoami)"
 BASH_RC="$HOME/.bashrc"
 
