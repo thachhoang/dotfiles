@@ -4,11 +4,16 @@ if [ -f "${HOME}/.bash_aliases" ]; then
   source "${HOME}/.bash_aliases"
 fi
 
-# classify files in colour
-alias ls='ls -hF --color=tty'
+# classify files in color
+alias ls='ls -hF --color=auto'
 
 # long list
 alias ll='ls -l'
+
+# grep in color
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
 
 alias brc='source ~/.bashrc'
 alias pullrb="git pull --rebase"
