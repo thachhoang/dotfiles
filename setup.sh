@@ -11,7 +11,7 @@ git config --global alias.ci commit
 git config --global alias.cm "commit -m"
 git config --global alias.cam "commit -am"
 git config --global alias.amend "commit --amend"
-git config --global alias.lg "log --decorate --oneline --stat --graph"
+git config --global alias.lg "log --decorate --oneline --stat --graph -C"
 git config --global alias.lg2 "log --decorate --graph --date=relative --all"
 git config --global alias.f "fetch -p"
 git config --global alias.cpk cherry-pick
