@@ -10,10 +10,10 @@ alias ls='ls -hF --color=auto'
 # long list
 alias ll='ls -l'
 
-# grep in color
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
+# grep, with line numbers, in color
+alias grep='grep -n --color=auto'
+alias fgrep='fgrep -n --color=auto'
+alias egrep='egrep -n --color=auto'
 
 alias brc='source ~/.bashrc'
 alias pullrb="git pull --rebase"
